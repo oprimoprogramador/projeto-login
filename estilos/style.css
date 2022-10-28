@@ -12,7 +12,7 @@ Sharingan
 }
 
 body, html {
-    background-color: rgb(168, 0, 0);
+    background-color: red;
     height: 100vh;
     width: 100vw;
     
@@ -64,6 +64,53 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
+}
+
+form > p.campo {
+    background-color: rgba(245, 4, 4, 0.616);
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+p.campo > label {
+    display: none;
+}
+
+form > p > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(155, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > p > input[type=submit]:hover {
+    background-color: red;
+}
+
+form > p > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: rgb(155, 0, 0);
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(155, 0, 0);
+    text-decoration: none;
+}
+
+form > p > a.botao:hover {
+    background-color: red;
+
 }
 
 

@@ -21,31 +21,31 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça Login para acessar sua conta.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <p>
+                    <p class="campo">
                         <span class="material-symbols-outlined">
                             person
-                            </span>
+                        </span>
                         
                         <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required maxlength="25">
                         <label for="ilogin">Login</label>
                     </p>
                     
-                    <p>
+                    <p class="campo" id="debaixo">
                         <span class="material-symbols-outlined">
                             vpn_key
-                            </span>
+                        </span>
                         
                         <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                         <label for="isenha">Senha</label>
                     </p>
 
                     <p>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar">
-                        <a href="esqueci.html">
-                            Esqueci a senha <span class="material-symbols-outlined">
+                        <input type="submit" value="Entrar" >
+                        <a href="esqueci.html" class="botao">
+                            Esqueci a senha 
+                            <span class="material-symbols-outlined">
                                 mail
-                                </span>
+                            </span>
                         </a>
                     </p>
                      
