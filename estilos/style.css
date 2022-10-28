@@ -12,7 +12,7 @@ Sharingan
 }
 
 body, html {
-    background-color: red;
+    background-color: rgb(168, 0, 0);
     height: 100vh;
     width: 100vw;
     
@@ -60,6 +60,10 @@ section#login > div#formulario {
     color: black;
     width: 200px;
     margin: auto;
+}
+
+div#formulario > h1 {
+    text-align: center;
 }
 
 
