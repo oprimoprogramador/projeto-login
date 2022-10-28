@@ -67,16 +67,37 @@ div#formulario > h1 {
 }
 
 form > p.campo {
-    background-color: rgba(245, 4, 4, 0.616);
+    background-color: rgb(68, 4, 4);
+    border: 2px solid rgb(68, 4, 4);
     width: 100%;
-    height: 40px;
+    height: 38px;
     display: block;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 p.campo > label {
     display: none;
+}
+
+p.campo > span {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+p.campo > input {
+    background-color:  rgba(231, 94, 94, 0.432);
+    font-size: 1em;
+    width: calc(100% - 63px);
+    transform: translateY(-11.5px);
+    
+    height: 83%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > p > input[type=submit] {
